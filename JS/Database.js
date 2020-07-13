@@ -116,7 +116,7 @@ class DataBase {
   }
 
   static imageUrlForUser(comment) {
-    return (`${BASE_URL}/photos/comment/${comment}`);
+    return (`${BASE_URL}/Photos/comment/${comment}`);
   }
 
   static locationURL(location) {
@@ -124,15 +124,15 @@ class DataBase {
   }
 
   static imageUrlForBlog(blog) {
-    return (`${BASE_URL}/photos/BlogC/${blog.picture}`);
+    return (`${BASE_URL}/Photos/BlogC/${blog.picture}`);
   }
 
   static imageUrlForBlogMain(blog){
-    return (`${BASE_URL}/photos/BlogM/${blog.pictureM}`);
+    return (`${BASE_URL}/Photos/BlogM/${blog.pictureM}`);
   }
 
   static imageUrlForBlogFood(blog){
-    return (`${BASE_URL}/photos/BlogS/${blog.pictureF}`);
+    return (`${BASE_URL}/Photos/BlogS/${blog.pictureF}`);
   }
 }
 
