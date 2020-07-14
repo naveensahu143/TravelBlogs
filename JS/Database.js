@@ -116,7 +116,7 @@ class DataBase {
   }
 
   static imageUrlForUser(comment) {
-    return (`${BASE_URL}/Photos/comment/${comment}`);
+    return (`${BASE_URL}/Photos/Comment/${comment}`);
   }
 
   static locationURL(location) {
