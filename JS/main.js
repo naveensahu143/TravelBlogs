@@ -124,6 +124,7 @@ createBlogHTML = (blog) => {
           cardbody.append(subtitle);
 
           const more = document.createElement('a');
+          more.className="btn btn-primary stretched-link";
           more.innerHTML = 'Read more....';
           more.href = DataBase.urlForBlog(blog);
           cardbody.append(more);
