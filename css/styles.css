@@ -73,11 +73,7 @@ h2.Comment-head {
   margin-top: 5px;
 }
 
-.card:hover{
 
-  zoom: 1.2;
-  box-shadow: blanchedalmond;
-}
  
 
 
@@ -155,4 +151,12 @@ h2.Comment-head {
   .container-fluid{
     width: 100%;
   }
+  .card-img-top{
+  padding-right: 10px;
+}
+
+.card-img-top:hover{
+
+  width: 105%;
+}
 }
