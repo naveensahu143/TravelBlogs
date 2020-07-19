@@ -106,10 +106,14 @@ createBlogHTML = (blog) => {
         title.innerHTML = blog.title;
         card.append(title);
 
+       const a = document.createElement('a');
+        a.href = DataBase.urlForBlog(blog);
+
         const image = document.createElement('img');
         image.className = 'card-img-top';
         image.src = DataBase.imageUrlForBlog(blog);
-        card.append(image);
+        a.append(image);
+        card.append(a);
 
         const cardbody = document.createElement('div');  
         cardbody.className="card-body";
